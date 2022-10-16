@@ -1,4 +1,4 @@
-# (preocts.github.io)[https://preocts.github.io]
+# [preocts.github.io](https://preocts.github.io)
 
 These are my pages.  I write these.
 
