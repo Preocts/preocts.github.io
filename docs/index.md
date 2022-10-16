@@ -1,4 +1,4 @@
-# Greetings
+# Profile
 
 ![Preocts Eggatar](images/preocts_eggatar_100x100.png){ align=right }
 
