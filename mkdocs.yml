@@ -1,14 +1,14 @@
 site_name: "Preocts"
 site_description: "Home of a simple egg's documents, musings, and write-ups."
-repo_url: "https://github.com/Preocts/Preocts"
-repo_name: "Preocts/Preocts"
+repo_url: "https://github.com/Preocts/preocts-pages"
+repo_name: "Preocts/preocts-pages"
 docs_dir: "docs"
 edit_uri: "edit/main/docs"
 
-nav:
-  - Home: "index.md"
-  - Eggsplains:
-      - 20221013-Open That File: "20221013-openthatfile.md"
+# nav:
+#   - Home: "index.md"
+#   - Eggsplains:
+#       - 20221013-Open That File: "20221013-openthatfile.md"
 
 theme:
   name: "material"
