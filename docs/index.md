@@ -5,7 +5,6 @@
 I'm Preocts. Software engineer, trouble-shooting button pusher, and aspiring
 author.
 
-* You can find me over on [Python Discord](https://discord.gg/python)
 * Current career focus is helping people dislike being on-call less
 * I build midware and automation with [Python](https://python.org)
 * I write fantasy adventure short stories
