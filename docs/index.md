@@ -2,10 +2,9 @@
 
 ![Preocts Eggatar](images/preocts_eggatar_100x100.png){ align=right }
 
-I'm Preocts. I am a software engineer, a trouble-shooting button pusher,
-and story teller.
+I'm Preocts.
 
-* Current career focus is helping people dislike being on-call less
+* Current career focus is helping people dislike being on on-call less
 * Most of my work here is learning, exploration, and refinement of patterns
 * I write fantasy adventure short stories
 * On the weekends I play Minecraft
