@@ -44,3 +44,11 @@ I'm Preocts.
     move with the flow of the process, must join it and flow with it.
 
     \- Dune, Frank Herbert
+
+!!! quote ""
+    FYI man, alright. You could sit at home, and do like absolutely
+    nothing, and your name goes through like 17 computers a day. 1984?
+    Yeah right, man. That's a typo. Orwell is here now. He's livin'
+    large. We have no names, man. No names. We are nameless!
+
+    \- Cereal Killer, Hackers
