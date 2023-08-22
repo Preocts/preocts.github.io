@@ -79,12 +79,14 @@ class Stream(TypedDict):
     started_at: str
 
 
-def get_streams_by_user_name(user_name: str) -> list[Stream]: # (1)!
+def get_streams_by_user_name(user_name: str) -> list[Stream]:  # (1)!
     """Get stream by user name, do not paginate."""
-    url = f"https://api.twitch.tv/helix/streams?user_login={user_name}?type=live?first=20"
+    url = (
+        f"https://api.twitch.tv/helix/streams?user_login={user_name}?type=live?first=20"
+    )
     headers = {"Client-ID": CLIENT_ID, "Authorization": f"Bearer {ACCESS_TOKEN}"}
     response = httpx.get(url, headers=headers)
-    return response.json()["data"] # (2)!
+    return response.json()["data"]  # (2)!
 ```
 
 1. This return type works here because `response.json()` returns `Any`.
@@ -126,6 +128,7 @@ import httpx
 CLIENT_ID = ""
 ACCESS_TOKEN = ""
 
+
 class Stream(TypedDict):
     """Stream object."""
 
@@ -138,10 +141,13 @@ class Stream(TypedDict):
 
 def get_streams_by_user_name(user_name: str) -> list[Stream]:
     """Get stream by user name, do not paginate."""
-    url = f"https://api.twitch.tv/helix/streams?user_login={user_name}?type=live?first=20"
+    url = (
+        f"https://api.twitch.tv/helix/streams?user_login={user_name}?type=live?first=20"
+    )
     headers = {"Client-ID": CLIENT_ID, "Authorization": f"Bearer {ACCESS_TOKEN}"}
     response = httpx.get(url, headers=headers)
     return response.json()["data"]
+
 
 def get_live_stream(user_name: str) -> Stream | None:
     """Get stream data from user name, return None if not live."""
