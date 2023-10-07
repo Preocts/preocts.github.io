@@ -7,6 +7,6 @@ install:
 .PHONEY: update
 update:
 	python -m pip install pip-tools
-	pip-compile
+	pip-compile --upgrade
 	python -m pip install -r requirements.txt
 	pre-commit autoupdate
