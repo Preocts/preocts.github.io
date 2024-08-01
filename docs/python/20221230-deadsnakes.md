@@ -42,7 +42,7 @@ refresh the state of your package manager.
 ## Installing Python 3.X
 
 The next step is to install the Python version desired.  Replace the `3.x` with
-the version you wish to install. (e.g.: `3.10` or `3.8`)
+the version you wish to install. (e.g.: `3.12`)
 
 The bash commands to run are:
 
@@ -83,6 +83,6 @@ test with and develop on.
 
 sudo add-apt-repository -y 'ppa:deadsnakes/ppa'
 sudo apt update
-sudo apt install -y python3.8 python3.9 python3.10 python3.11
-sudo apt install -y python3.8-venv python3.9-venv python3.10-venv python3.11-venv
+sudo apt install -y python3.9 python3.10 python3.11 python3.12
+sudo apt install -y python3.9-venv python3.10-venv python3.11-venv python3.12-venv
 ```
